@@ -9,3 +9,4 @@ CE5
 	sw   $S2, 84($0) #Stores 84/x54 in S2
 ```
 
+#Task2
