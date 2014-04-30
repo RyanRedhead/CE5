@@ -2,6 +2,6 @@ CE5
 
 #Task1
 
-```vhdl
+```mips
 	addi
 ```
