@@ -37,4 +37,4 @@ CE5
 ##Testbench
 ![Alt Text](https://github.com/RyanRedhead/CE5/blob/master/Task2.PNG?raw=true)
 
-
+The waveform is correct. The aluout signal matches the result we are looking for from task 1, as well as the other signals matching each command. 
