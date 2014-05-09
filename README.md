@@ -33,3 +33,6 @@ CE5
 3rd- 0x02119020
 
 4th- 0xAC120054
+
+##Testbench
+![Alt Text](https://github.com/RyanRedhead/Lab3/blob/master/Task2.PNGraw=true)
