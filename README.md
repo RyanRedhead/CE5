@@ -41,9 +41,15 @@ The waveform is correct. The aluout signal matches the result we are looking for
 
 #Task 3
 
+##Main Decoder
 ![Alt Text](https://github.com/RyanRedhead/CE5/blob/master/MainDecoder.PNG?raw=true)
 
-![Alt Text](https://github.com/RyanRedhead/CE5/blob/master/ORIcommand.PNG?raw=true)
+##ALU Decoder
+![Alt Text](https://github.com/RyanRedhead/CE5/blob/master/ALUDecoder.PNG?raw=true)
 
+##Schematic
 ![Alt Text](https://github.com/RyanRedhead/CE5/blob/master/ALUSchematic.PNG?raw=true)
+
+##Waveform
+![Alt Text](https://github.com/RyanRedhead/CE5/blob/master/ORIcommand.PNG?raw=true)
 
