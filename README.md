@@ -33,3 +33,8 @@ CE5
 3rd- 0x02119020
 
 4th- 0xAC120054
+
+##Testbench
+![Alt Text](https://github.com/RyanRedhead/CE5/blob/master/Task2.PNG?raw=true)
+
+The waveform is correct. The aluout signal matches the result we are looking for from task 1, as well as the other signals matching each command. 
