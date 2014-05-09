@@ -193,6 +193,7 @@ begin
       when "000100" => controls <= "000100001"; -- BEQ
       when "001000" => controls <= "101000000"; -- ADDI
       when "000010" => controls <= "000000100"; -- J
+		when "001101" => controls <= "101000011"; --Added Op Code for ORI---------------------------------
       when others   => controls <= "---------"; -- illegal op
     end case;
   end process;
@@ -213,6 +214,7 @@ begin
     case aluop is
       when "00" => alucontrol <= "010"; -- add (for lb/sb/addi)
       when "01" => alucontrol <= "110"; -- sub (for beq)
+		when "11" => alucontrol <= "001"; -- ORI in the ALU control--------------------------------------------
       when others => case funct is         -- R-type instructions
                          when "100000" => alucontrol <= "010"; -- add (for add)
                          when "100010" => alucontrol <= "110"; -- subtract (for sub)
@@ -297,7 +299,7 @@ begin
   slt <= X"00000001" when sum(31) = '1' else X"00000000";
   with alucontrol(1 downto 0) select result <=
     a and b when "00",
-    a or b  when "01",
+    a or (X"0000FFFF" and b)  when "01",------------------------------ORI too
     sum     when "10",
     slt     when others;
   zero <= '1' when result = X"00000000" else '0';

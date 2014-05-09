@@ -99,13 +99,15 @@ BEGIN
    begin		
 
 instr <= X"20100026";
-wait for clk_period;
+wait for clk_period*10;
 instr <= X"2011FFDB";
-wait for clk_period;
+wait for clk_period*10;
 instr <= X"02119020";
-wait for clk_period;
+wait for clk_period*10;
+instr <= X"36538000";
+wait for clk_period*10;
 instr <= X"AC120054";
-wait for clk_period;
+wait for clk_period*10;
       wait;
    end process;
 
