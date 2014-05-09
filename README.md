@@ -64,3 +64,5 @@ No changes to the schematic were needed.
 ##Waveform
 ![Alt Text](https://github.com/RyanRedhead/CE5/blob/master/ORIcommand.PNG?raw=true)
 
+##VHDL Modifications
+
