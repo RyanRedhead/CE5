@@ -41,6 +41,15 @@ The waveform is correct. The aluout signal matches the result we are looking for
 
 #Task 3
 
+##Machine Code
+The ori command fits in between the previous 3rd and 4th commands in task 1.
+
+```mips
+	ori $S3, $S2, x8000
+```
+Binary: 00110110010100111000000000000000
+Hex Code: 0x3658000
+
 ##Main Decoder
 ![Alt Text](https://github.com/RyanRedhead/CE5/blob/master/MainDecoder.PNG?raw=true)
 
