@@ -117,3 +117,4 @@ begin
   zero <= '1' when result = X"00000000" else '0';
 end;
 ```
+Documentation: I referenced El-Saawy's git to figure out how to change the ALU control to accomdate the ORI command.
