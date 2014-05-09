@@ -38,3 +38,12 @@ CE5
 ![Alt Text](https://github.com/RyanRedhead/CE5/blob/master/Task2.PNG?raw=true)
 
 The waveform is correct. The aluout signal matches the result we are looking for from task 1, as well as the other signals matching each command. 
+
+#Task 3
+
+![Alt Text](https://github.com/RyanRedhead/CE5/blob/master/MainDecoder.PNG?raw=true)
+
+![Alt Text](https://github.com/RyanRedhead/CE5/blob/master/ALUdecoder.PNG?raw=true)
+
+![Alt Text](https://github.com/RyanRedhead/CE5/blob/master/ALUSchematic.PNG?raw=true)
+
