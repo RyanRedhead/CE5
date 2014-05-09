@@ -59,6 +59,8 @@ Hex Code: 0x3658000
 ##Schematic
 ![Alt Text](https://github.com/RyanRedhead/CE5/blob/master/ALUSchematic.PNG?raw=true)
 
+No changes to the schematic were needed. 
+
 ##Waveform
 ![Alt Text](https://github.com/RyanRedhead/CE5/blob/master/ORIcommand.PNG?raw=true)
 
